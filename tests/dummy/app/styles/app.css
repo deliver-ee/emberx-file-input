@@ -1,0 +1,9 @@
+.custom-class label {
+  background: green;
+  padding: 10px;
+  color: white;
+}
+.x-file--input:focus + label,
+.custom-class label:hover {
+  background-color: blue;
+}
